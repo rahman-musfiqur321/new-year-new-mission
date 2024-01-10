@@ -7,7 +7,8 @@
 
 /* header related styles */
 .header {
-    background: linear-gradient(180deg, #110502 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner-Image.png);
+    background: linear-gradient(180deg, #110502 0%, rgba(7, 2, 17, 0) 100%),
+        url(../images/Banner-Image.png);
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 1320px;
@@ -26,7 +27,7 @@
 }
 
 .banner-title {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 72px;
     font-style: normal;
@@ -45,14 +46,14 @@ main {
 }
 
 .off-65-title {
-    color: #F00;
+    color: #f00;
     text-align: center;
     font-family: Inter;
     font-size: 88px;
 }
 
 .off-65-description {
-    color: #F00;
+    color: #f00;
     text-align: center;
     font-family: Inter;
     font-size: 24px;
@@ -83,7 +84,7 @@ main {
 }
 
 .midnight-party-title {
-    color: #FFF;
+    color: #fff;
     font-family: Merriweather;
     font-size: 64px;
     font-style: normal;
@@ -94,7 +95,7 @@ main {
 }
 
 .midnight-party-description {
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(255, 255, 255, 0.8);
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
@@ -104,7 +105,7 @@ main {
 }
 
 .midnight-party-join {
-    color: #FFF;
+    color: #fff;
     text-align: left;
     font-family: Inter;
     font-size: 20px;
@@ -117,16 +118,19 @@ main {
 /* address related styles*/
 
 .red {
-    color: #F00;
+    color: #f00;
 }
 
 .address {
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    ;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 0, 0, 0.1) 0%,
+        rgba(255, 0, 0, 0) 100%
+    );
 }
 
 .address-content {
-    padding: 100px 385px;
+    padding: 100px 380px;
 }
 
 .address-description {
@@ -141,12 +145,54 @@ main {
 
 .btn-join {
     border-radius: 8px;
-    background: #F00;
+    background: #f00;
     border: 0;
     padding: 16px 32px;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     margin-left: 223px;
+}
+
+.offer-content{
+    display: flex;
+    gap: 110px;
+}
+
+.new-offer {
+    color: #f00;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.offer-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+}
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.offer-image {
+    /* border: solid red;
+    border-radius: 50%; */
+    border: 15px solid red;
+    padding: 35px;
+    background-clip: content-box;
+    background-color: violet;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.twenty-four{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
 }
