@@ -5,6 +5,10 @@
     margin: 0 auto; */
 }
 
+section {
+    margin-top: 120px;
+}
+
 /* header related styles */
 .header {
     background: linear-gradient(180deg, #110502 0%, rgba(7, 2, 17, 0) 100%),
@@ -155,9 +159,13 @@ main {
     margin-left: 223px;
 }
 
-.offer-content{
+.offer-content {
     display: flex;
-    gap: 110px;
+    gap: 100px;
+}
+
+.offer-col {
+    width: 463px;
 }
 
 .new-offer {
@@ -179,20 +187,116 @@ main {
 }
 
 .offer-image {
-    /* border: solid red;
-    border-radius: 50%; */
+    /* border: solid red; */
+    border-radius: 50%;
     border: 15px solid red;
     padding: 35px;
     background-clip: content-box;
     background-color: violet;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
-.twenty-four{
-    color: #F00;
-font-family: Inter;
-font-size: 48px;
+.twenty-four {
+    color: #f00;
+    font-family: Inter;
+    font-size: 48px;
+}
+
+.holidays-sale-content {
+    margin-top: 120px;
+}
+
+.functional {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.holiday-sale-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.holiday-sale-description {
+    color: #07021199;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+
+.holiday-image-container {
+    display: flex;
+}
+
+.best-gift {
+    color: #f00;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.portfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+}
+
+.portfolio-description {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.portfolio-image:hover {
+    transform: scale(1.3);
+    border: 2px solid #f00;
+    border-radius: 16px;
+}
+
+.newsletter-content {
+    border-radius: 16px;
+    background: #ff00000d;
+}
+
+.newsletter-image {
+    margin: 80px 585px 40px 585px;
+}
+
+.newsletter-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+}
+
+.newsletter-description {
+    color: #07021199;
+    text-align: center;
+    font-family: Inter;
+}
+
+.email-box {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+button,
+input[type='email'] {
+    border: none;
+    outline: none;
+}
+
+.btn-email {
+    background-color: #f00;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
 }
