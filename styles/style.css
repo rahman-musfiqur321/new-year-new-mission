@@ -45,10 +45,6 @@ main {
     margin: 0 auto;
 }
 
-.off-65 {
-    margin: 0 120px;
-}
-
 .off-65-title {
     color: #f00;
     text-align: center;
@@ -71,7 +67,10 @@ main {
 }
 
 .off-65-image {
-    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .midnight-party {
@@ -117,6 +116,8 @@ main {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    background: none;
+    padding: 0;
 }
 
 /* address related styles*/
@@ -337,4 +338,8 @@ footer {
 
 .footer-socials {
     padding-left: 492px;
+}
+
+i {
+    margin-right: 1em;
 }
